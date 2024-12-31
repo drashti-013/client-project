@@ -1,0 +1,39 @@
+/* Card hover effect */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Add Address card styling */
+.add-address-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-address-card:hover {
+    background-color: #f8f9fa;
+}
+
+.add-icon {
+    font-size: 3rem;
+    color: #28a745;
+    transition: color 0.3s ease;
+}
+
+.add-address-card:hover .add-icon {
+    color: #218838;
+}
+
+.add-text {
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+    color: #212529;
+}
